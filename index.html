@@ -32,6 +32,23 @@
         .col-4{
             margin-bottom: 23px;
         }
+
+        @media (max-width: 1000px) {
+            .col-4{
+                width: 100%;
+            }
+        }
+        @media (max-width: 650px) {
+            #grid .row{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .col-4{
+                width: 300px;
+            }
+            
+        }
     </style>
 </head>
 
